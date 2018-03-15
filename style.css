@@ -1,0 +1,319 @@
+body {
+	font-family: Coco Gothic, sans-serif;
+	color: #5c6369;
+}
+ul, li {
+	display: block;
+	padding-right: 0;
+	margin: 0;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Coco Gothic, sans-serif;
+	font-weight: 700;
+	color: #515151;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.main__header {
+	margin-top: 60px;
+}
+
+.logotype	{
+	margin-top: 13px;
+}
+.menu {
+	margin-top: 12px;
+	padding-right: 20px;
+}
+
+.menu__item {
+	font-weight: 400;
+	font-size: 15px;
+
+}
+
+.menu__item a {
+	color: #272626;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu__item a:hover {
+	color: #e3e3e3;
+	transition: .5s;
+}
+
+
+.number {
+	display:block;
+	font-family: Georgia, sans-serif;
+	font-size: 18px;
+	margin-top: 6px;
+}
+
+.number a {
+	color: #272626;
+	text-decoration: none;
+}
+
+.offer {
+	background: url(img/bg_1.jpg) no-repeat center top;
+	height: 700px;
+	margin-top: 60px;
+	margin-left: 156px;
+}
+
+.row
+
+.title__heading  {
+	color: #fff;
+	font-size: 50px;
+}
+
+.title p {
+	display: block;
+	margin-left: 16px;
+}
+
+.title {
+	font-size: 23px;
+	color: #fff;
+	padding-top: 225px;
+	padding-left: 100px;
+}
+
+.cta {
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 400;
+	cursor: pointer;
+	width: 150px;
+	border: 2px solid white;
+	text-align: center;
+	background: transparent;
+}
+
+.container-button {
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-left: 450px;
+}
+
+.title_services {
+	margin-top: 60px;
+}
+
+.sevices__item {
+	margin-left: 124px;
+	color: #282525;
+	font-weight: 400;
+	font-size: 28px;
+}
+
+.services__info {
+	margin-top: 60px;
+}
+
+.cov_images {
+	margin-top: 60px;
+	margin-left: 110px;
+	position: relative;
+	width: 100%;
+
+}
+
+.cov-images-down {
+	margin-left: 347px;
+	margin-top: 80px;
+}
+
+.cov-images__item {
+	margin-bottom: 20px;
+}
+
+.info__photo {
+	margin-left: 19%;
+	margin-top: 3%;
+}
+
+.grid__item {
+	float: left;
+	position: relative;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+.grid__item a {
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.grid__item a:hover {
+	color: black;
+}
+
+.pictures__info:nth-of-type {
+	margin-right: 0;
+}
+
+.grid__overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: 1s;
+}
+
+.grid__overlay:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.grid__picture {
+	max-width: 100%;
+	display: block;
+}
+
+.grid__link {
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	font-family: Coco Gothic, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.grid__text  {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	height: 40px;
+}
+
+.history {
+	text-align: center;
+		margin-left: 13%;
+		margin-top: 60px;
+}
+
+.history__text {
+	padding-top: 40px;
+	font-size: 20px;
+	color: #282525;
+}
+
+.social__text {
+	margin-left: 20%;
+}
+
+.soc {
+	margin-top: 60px;
+	margin-left: 12%;
+}
+
+.soc_links	{
+	margin-left: 12%;
+}
+
+/*.text__copy {
+	margin-top: 150px;
+	margin-left: 12%;
+	font-family: Georgia, sans-serif;
+}
+
+.social__text {
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 150px;
+	padding-left: 30%; 
+	color: #515151;
+}
+
+.social__links a:hover {
+	color: #e3e3e3;
+	transition: .5s;
+}
+
+.social__links a{
+	color: #515151;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: none;
+	font-family: Georgia, sans-serif;
+}
+
+.footer__items {
+	padding-bottom: 20px;
+}*/
+
+/*.btn-nav {
+	border: 0;
+	background: none;
+	padding: 0.7rem;
+	cursor: pointer;
+	border-radius: 0.2rem;
+}
+
+.btn-nav:hover {
+	background: #e3e3e3;
+	transition: .5s;
+}
+
+.btn-nav__line {
+	display: block;
+	width: 20px;
+	height: 2px;
+	border-radius: 1px;
+    background: #515151;
+	margin-bottom: 3px;
+}
+
+.btn-nav__line:last-child {
+	margin-bottom: 0;
+}
+
+.nav__btn {
+	text-align: right;
+	margin: 1rem 0;
+	padding: none;
+}*/
+.main__footer {
+margin-top: 15%;
+margin-left: 10%;
+margin-bottom: 3%;
+}
+
+.footer-text, .footer__text {
+	font-family: Georgia, sans-serif;
+}
+
+.footer__text {
+	text-align: right;
+}
+
+.footer__text a {
+	color: #515151;
+	text-decoration: none;
+}
+
+.footer__text a:hover {
+	color: #e3e3e3;
+	transition: .5s;
+}
+
+.slideLeft {
+	animation-duration: 10s;
+}
